@@ -1,0 +1,98 @@
+body{
+	margin: 2%;
+	background-color: #FFFFFF;
+}
+
+h1{
+	text-align: center;
+	font-family: "Courier New";
+	background-image: linear-gradient(to bottom, #FDF8F8, #5A8DBA, #116AB7, #BAC9D7);		
+	color: black;
+	margin-left: 400px;
+	margin-right: 400px;
+	
+}
+
+.images-container{
+	display: inline-block;
+	background-color: #150202;
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.images-container img{
+	width: 22%;
+	height: 350px;
+	margin-left: 25px;
+	border: 2px solid black;
+	border-radius: 15px;
+}
+
+.logos{
+	height: 50px;
+	padding-right: 15px;
+}
+
+.left{
+	display: inline-block;
+	/*background-color: #E0FFFF;*/
+	width: 28%;
+	height: 540px;
+	float: left;
+}
+
+.middle{
+	display: inline-block;
+	/*background-color: #E0FFFF;*/
+	width: 28%;
+	height: 540px;
+	float: left;
+}
+
+.image-section{
+	display: inline-block;
+	width: 30%;
+	height: 540px;
+	float: right;
+	/*background-image : linear-gradient(to bottom, #2E2EB3, #06063A);*/
+	padding-left: 85px;
+	
+}
+
+aside img{
+	display: block;
+	width: 70%;
+	height: 140px;
+	border: 1px solid white;
+	border-radius: 5px;
+	margin: 30px 4% 30px 4%;
+}	
+
+.section-left{
+	display: inline-block;
+	width: 28%;
+	height: 100px;
+	float: left;
+}
+
+.section-middle{
+	display: inline-block;
+	width: 28%;
+	height: 100px;
+}
+
+.section-right{
+	display: inline-block;
+	width: 35%;
+	height: 100px;
+	float: right;
+	padding-top: 35px;
+	padding-left: 60px;
+}
+
+a{
+	text-decoration: none;
+	color: #2564E4;
+	font-weight: bold;
+}

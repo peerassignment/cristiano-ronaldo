@@ -1,0 +1,159 @@
+body{
+	padding: 5px;
+	margin: 10px;
+}
+
+header{
+	background-color: #898E86;
+	background-image: url("../images/flywheel.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 30px;
+	padding-left: 145px;
+}
+
+h1{
+	text-transform: uppercase;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 120%;
+}
+
+h2{
+	font-size: 35px;
+}
+
+p{
+	font-size: 20px;
+}
+
+table{
+	font-size: 20px;
+}
+
+ul{
+	font-size: 20px;
+}
+
+nav a{
+	text-decoration: none;
+	display: inline-block;
+	text-align: center;
+	color: #131312FC;
+	background: #B8C3C59C;
+	font-weight: bold;
+	font-size: 120%;
+	margin: 25px;
+	width: 150px;
+	padding: 15px;
+	margin-bottom: 80px;
+	margin-top: 8px;
+	border-radius: 5px;
+}
+
+nav a:hover{  
+    background: #FFFFFF;
+	color: #131312FC;	
+}
+
+nav a:focus{  
+    background: #FFFFFF;
+	color: #131312FC;	
+}
+
+
+/*a:active{
+	background: #FFFFFF;
+	color: #131312FC;	
+}*/
+
+.nav .active{
+	background-color: #FFFFFF;
+	color: #131312FC;
+
+}
+
+.left{
+	display: inline-block;
+	background-color: #647934;
+	width: 20%;
+	padding: 3% 2% 120px 2%;
+}
+
+.right{
+	display: inline-block;
+	background-color: #FFFFFF;
+	width: 75%;
+	float: right;
+	
+}
+
+aside img{
+	width: 95%;
+	height: 60%;
+	border: 2px solid #0E0101;
+	margin-bottom: 25px;
+}
+
+table{
+	font-family: sans-serif;
+	font-size: 15px;
+	line-height: 35px;
+	width: 85%;
+	margin-left: 8%;
+}
+
+table, th, tr{						
+	border: 0.5px solid #FFFFFF;
+}
+
+th{
+	background-image: linear-gradient(to bottom, #497D2F, #C1E6AE);				/*styling table header*/
+	background-image: -webkit-linear-gradient(to bottom, #497D2F, #C1E6AE);
+	background-image: -moz-linear-gradient(to bottom, #497D2F, #C1E6AE);
+	background-image: -o-linear-gradient(to bottom, #497D2F, #C1E6AE);			
+	color: #FFFFFF;
+	border-radius: 4px 4px 0 0;
+	border-bottom: 2px solid #89C079;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	letter-spacing: 1px;
+	font-family: Helvetica;
+}
+
+tr{
+	background-color: #D5E2B6;								/*setting background color and opacity for table rows*/
+	color: #363C34;
+	opacity: .8;
+}
+
+tr:hover{													/*pseudo class*/
+	opacity: 1;
+}
+
+ tr td:first-child{											/*left aligning th e first column*/
+	padding-left: 15px;
+}
+
+th:first-child{
+	text-align: left;
+	padding-left: 15px;
+}
+
+td:nth-child(2){											/*center aligning the 2nd column*/
+	text-align: center;
+}
+
+td:nth-child(3){											/*center aligning the 3rd column*/
+	text-align: center;
+}
+
+td{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #A7CE9B;
+	border-radius: 2px;
+	font-family: "Lucida Console";
+}
+
+
